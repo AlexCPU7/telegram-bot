@@ -1,0 +1,13 @@
+.idea
+.pytest_cache
+
+*.pyc
+*.sqlite3
+
+venv
+env
+.venv
+.env
+
+media
+/job_monitoring_bot/config.py
