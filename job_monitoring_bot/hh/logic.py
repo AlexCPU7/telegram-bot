@@ -61,9 +61,3 @@ def get_search_count_vacancies(name_vacancies):
         count_vacancy = get_search_count_vacancy(name_vacancy)
         jobs.update({name_vacancy: count_vacancy})
     return jobs
-
-
-arr_jobs = ('python', 'django', 'golang')
-result = get_search_count_vacancies(arr_jobs)
-print(result)
-

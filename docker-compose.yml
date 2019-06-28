@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  job_monitoring_bot:
+    build:
+      context: .
+      dockerfile: job_monitoring_bot/Dockerfile
+    restart: always
+    command: "python script_push_bot.py"
