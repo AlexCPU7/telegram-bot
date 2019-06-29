@@ -8,8 +8,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 print(BASE_DIR)
 sys.path.insert(0, BASE_DIR)
 
-from config import MAIN_URL
-from hh.logic import get_search_count_vacancies
+from job_monitoring_bot.config import MAIN_URL
+from job_monitoring_bot.hh.logic import get_search_count_vacancies
 
 
 BASE_URL = 'https://api.hh.ru/'
