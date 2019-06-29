@@ -45,9 +45,3 @@ if __name__ == "__main__":
         print('GO')
         main()
         time.sleep(10)
-
-# print('RUN')
-# while True:
-#     print('GO')
-#     main()
-#     time.sleep(10)
