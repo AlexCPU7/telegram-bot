@@ -82,16 +82,15 @@ def main():
     requests.get(url, data=data)
 
 
-# if __name__ == "__main__":
-#     schedule.every().day.at(TIME_PUSH).do(main)
-#     while True:
-#         schedule.run_pending()
-#         time.sleep(1)
-
-
 if __name__ == "__main__":
-    print('RUN')
+    schedule.every().day.at(TIME_PUSH).do(main)
     while True:
-        print('GO')
-        main()
-        time.sleep(10)
+        schedule.run_pending()
+
+
+# if __name__ == "__main__":
+#     print('RUN')
+#     while True:
+#         print('GO')
+#         main()
+#         time.sleep(10)
